@@ -1,0 +1,8 @@
+logging:
+  file:
+    name: ./logs/demo.log
+    max-history: 7
+    max-size: 2MB
+spring:
+  profiles:
+    active: dev
